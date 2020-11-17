@@ -1,0 +1,338 @@
+@charset="UTF-8";
+*{
+	margin:0;
+	padding: 0;
+}
+/*头部登录搜索页*/
+.head-box{
+	background: #2e2e33;
+}
+.head-center{
+	width: 1002px;
+	height:32px;
+	background: #2e2e33;
+	margin:0 auto;
+}
+.head-left{
+	width: 414px;
+	float: left;
+}
+.head-left p,.head-left-a{
+	float: left;
+	line-height: 32px;
+	color: #fff;
+	font-size: 12px;
+	text-decoration: none;
+}
+.head-left .p3{
+	padding-left: 30px;
+}
+
+.head-right{
+	width: 176px;
+	height: 32px;
+	float: right;
+}
+.head-right .txt{
+	width: 154px;
+	height: 24px;
+	background: #fff;
+	margin-top: 3px;
+}
+.head-right .btn{
+	width: 20px;
+	height: 26px;
+	background: #fff url(../images/images/PHPOK_03.png)
+	no-repeat center;
+	float: right;
+	margin-top: 3px;
+}
+.head-right input{
+	border: 1px solid #fff;
+}
+
+/*头部导航栏*/
+.nav-box{
+	background: #f8f8fa;
+}
+.nav-center{
+	margin:0 auto;
+	background: #f8f8fa;
+	width: 1002px;
+	height: 98px;
+}
+.nav-center a img{
+	margin-top: 22px;
+}
+.nav-center ul{
+	float: right;
+	list-style: none;
+	margin-top: 43px;
+}
+.nav-center ul li{
+	float: left;
+	padding-right: 24px;
+}
+.nav-center ul li a{
+	font-size: 12px;
+	color: #666666;
+	text-decoration: none;
+}
+.nav-center ul li a:hover{
+	color: #0051ac;
+	border-bottom: 2px solid #0051ac;
+}
+/*banner大图*/
+.banner-box{
+	width: 100%;
+	background: #3f63a1;
+}
+.banner-center{
+	width: 1002px;
+	height: 350px;
+	margin:0 auto;
+}
+/*3,内容模块*/
+.content-box{
+background: #f8f8fa;
+}
+/*左边*/
+.content-box .content-box-center{
+	width: 1002px;
+	height: 386px;
+	margin:0 auto;
+	background: #f8f8fa;
+}
+.content-box .content-box-center .cb-left{
+	float: left;
+	width: 320px;
+	background: #f8f8fa;
+}
+.content-box-center .cb-left .cb-left-top{
+	width:320px; 
+	height:62px;
+	border-bottom: 2px solid #cccccc;
+}
+.content-box .content-box-center .cb-left .cb-left-top a p{
+	width: 24px;
+	font-size: 12px;
+	color: #00a2e9;
+	padding-top:32px;
+	padding-right:0px;
+}
+.content-box .content-box-center .cb-left .cb-left-top a{
+	display: block;
+	width: 24px;
+	float: right;
+	text-decoration: none;
+}
+.content-box .content-box-center .cb-left .cb-left-top h2{
+	padding-top: 28px;
+	display: block;
+	width: 88px;
+	font-size: 22px;
+	color: #333333;
+	float: left;
+}
+.content-box-center .cb-left ul{
+	line-height: 28px;
+	font-size: 12px;
+	list-style: none;
+	float: left;
+	margin-top: 10px;
+}
+.content-box-center .cb-left ul li a{
+	color: #666666;
+	text-decoration: none;
+
+}
+.content-box-center .cb-left .date li{
+	padding-left: 60px;
+}
+/*中间*/
+.content-box .content-box-center{
+	width: 1002px;
+	height: 386px;
+	margin:0 auto;
+	background: pink;
+}
+.content-box .content-box-center .cb-center{
+	float: left;
+	width: 320px;
+	background: #f8f8fa;
+}
+.content-box-center .cb-center .cb-center-top{
+	width:320px; 
+	height:62px;
+	border-bottom: 2px solid #cccccc;
+}
+.content-box .content-box-center .cb-center .cb-center-top a p{
+	width: 24px;
+	font-size: 12px;
+	color: #00a2e9;
+	padding-top:32px;
+	padding-right:0px;
+}
+.content-box .content-box-center .cb-center .cb-center-top a{
+	display: block;
+	width: 24px;
+	float: right;
+	text-decoration: none;
+}
+.content-box .content-box-center .cb-center .cb-center-top h2{
+	padding-top: 28px;
+	display: block;
+	width: 88px;
+	font-size: 22px;
+	color: #333333;
+	float: left;
+}
+.content-box-center .cb-center ul{
+	line-height: 28px;
+	font-size: 12px;
+	list-style: none;
+	float: left;
+	margin-top: 10px;
+}
+.content-box-center .cb-center ul li a{
+	color: #666666;
+	text-decoration: none;
+
+}
+.content-box-center .cb-center .date2 li{
+	padding-left: 60px;
+}
+/*右边*/
+.content-box .content-box-center{
+	width: 1002px;
+	height: 386px;
+	margin:0 auto;
+	background: #f8f8fa;
+}
+.content-box .content-box-center .cb-right{
+	float: left;
+	width: 320px;
+	background: #f8f8fa;
+}
+.content-box-center .cb-right .cb-right-top{
+	width:320px; 
+	height:62px;
+	border-bottom: 2px solid #cccccc;
+}
+.content-box .content-box-center .cb-right .cb-right-top a p{
+	width: 24px;
+	font-size: 12px;
+	color: #00a2e9;
+	padding-top:32px;
+	padding-right:0px;
+}
+.content-box .content-box-center .cb-right .cb-right-top a{
+	display: block;
+	width: 24px;
+	float: right;
+	text-decoration: none;
+}
+.content-box .content-box-center .cb-right .cb-right-top h2{
+	padding-top: 28px;
+	display: block;
+	width: 88px;
+	font-size: 22px;
+	color: #333333;
+	float: left;
+}
+.content-box-center .cb-right ul{
+	line-height: 28px;
+	font-size: 12px;
+	list-style: none;
+	float: left;
+	margin-top: 10px;
+}
+.content-box-center .cb-right ul li a{
+	color: #666666;
+	text-decoration: none;
+
+}
+.content-box-center .cb-right .date3 li{
+	padding-left: 60px;
+}
+.content-box-center .cb-center,.cb-left{
+	margin-right: 20px;
+}
+/*案例*/
+.case-bigbox{
+
+}
+.case-bigbox .case-center{
+	background: pink;
+	width: 1002px;
+	height: 1244px;
+	margin: 0 auto;
+}
+.case-bigbox .case-center .cc-top{
+	height: 102px;
+	width: 1002px;
+	background: #fafafa;
+}
+.case-bigbox .case-center .cc-top .cc-top-h2{
+	font-size: 22px;
+	display: block;
+	width: 88px;
+	padding-top: 34px;
+	float: left;
+
+}
+.case-bigbox .case-center .cc-top a{
+	display: block;
+	float: right;
+	padding-top: 32px;
+}
+/*案例图片*/
+.case-bigbox .case-center .cc-center .cc-center-01,
+.cc-center-02,.cc-center-03,.cc-center-04{
+	float: left;
+	height: 220px;
+}
+.case-bigbox .case-center .cc-center .cc-center-01 div,
+.cc-center-02 div,.cc-center-03 div,.cc-center-04 div{
+	float: left;
+	height: 220px;
+}
+.case-bigbox .case-center .cc-center .cc-center-01 div a,
+.cc-center-02 div a,.cc-center-03 div a,.cc-center-04 div a{
+	text-decoration: none;
+	list-style: none;
+	color: #666666;
+	font-size: 12px;
+	height: 220px;
+}
+.case-bigbox .case-center .cc-center .cc-center-01 div a p,
+.cc-center-02 div a p,.cc-center-03 div a p,.cc-center-04 div a p{
+	display: block;
+	height: 39px;
+	line-height: 39px;
+	background: #f1f1f1;
+}
+.cc-center-01 div:nth-child(1){
+	margin-right: 18px;
+}
+.cc-center-01 div:nth-child(2){
+	margin-right: 18px;
+}
+.cc-center-02 div:nth-child(1){
+	margin-right: 18px;
+}
+.cc-center-02 div:nth-child(2){
+	margin-right: 18px;
+}
+.cc-center-03 div:nth-child(1){
+	margin-right: 18px;
+}
+.cc-center-03 div:nth-child(2){
+	margin-right: 18px;
+}
+.cc-center-04 div:nth-child(1){
+	margin-right: 18px;
+}
+.cc-center-04 div:nth-child(2){
+	margin-right: 18px;
+}
