@@ -87,7 +87,7 @@
     req request  获取客户端传过来的信息
     res response  给浏览器响应信息
 */
-引入http
+//引入http
 var http = require('http');
 //引入fs
 var fs = require('fs');
@@ -101,10 +101,13 @@ var server = http.createServer(function (req, res) {
     res.write("<head> <meta charset = 'UTF-8'></head>")
 
     if (req.url === '/favicon.ico') {
+
         res.end('');
+        
         return;
     }
-
+    console.log(req.url);
+    
     var obj = url.parse(req.url, true);
 
     try {
