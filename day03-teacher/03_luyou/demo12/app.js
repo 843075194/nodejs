@@ -4,6 +4,7 @@
 const http = require('http');
 const routes = require('./module/routes');
 const url = require('url');
+
 http.createServer(function (req, res) {   
 
     //创建静态web服务

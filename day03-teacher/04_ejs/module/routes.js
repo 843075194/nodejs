@@ -15,8 +15,13 @@ exports.static = function (req, res, staticPath) {
 
     //1、获取地址
     let pathname = url.parse(req.url).pathname;
+    //css/public.css
+    //css/dmb.header.css 
     pathname = pathname == '/' ? '/index.html' : pathname;
-    let extname = path.extname(pathname);
+    
+    let extname = path.extname(pathname); 
+    //可以获取后缀名path.extname() 
+    // '.html'   '.css'  '.js'  类型这种
     //2、通过fs模块读取文件
     if (pathname != '/favicon.ico') {
         try {
