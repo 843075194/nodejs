@@ -15,12 +15,15 @@ exports.static = function (req, res, staticPath) {
 
     //1、获取地址
     let pathname = url.parse(req.url).pathname;
+    console.log(pathname);
+    
     pathname = pathname == '/' ? '/index.html' : pathname;
     let extname = path.extname(pathname);
-    //2、通过fs模块读取文件
+    //2、通过fs模块读取文件a
     if (pathname != '/favicon.ico') {
         try {
             let data = fs.readFileSync('./' + staticPath + pathname);
+            console.log(data.toString());
             if (data) {
                 let mime = getFileMime(extname);
                 res.writeHead(200, { 'Content-Type': '' + mime + ';charset="utf-8"' });

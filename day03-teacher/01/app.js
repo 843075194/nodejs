@@ -31,11 +31,9 @@ http.createServer(function (req, res) {
             let mime=await common.getFileMime(extname);
             res.writeHead(200, {'Content-Type': ' '+ mime +';charset="utf-8"'});  
           //res.writeHead(404, {'Content-Type': 'text/html;charset="utf-8"'});  
-
             res.end(data);            
         })
     }   
-
 }).listen(3000);
 
 console.log('Server running at http://127.0.0.1:3000/');

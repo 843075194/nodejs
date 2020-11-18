@@ -11,5 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "ejs": "^3.0.2"
+  },
+  "devDependencies": {
+    "ejs": "^3.1.5"
   }
 }

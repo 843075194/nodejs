@@ -30,7 +30,7 @@ exports.getFileMime = function (extname) {
             let mimeObj=JSON.parse(data.toString());
             //data是buffer类型的，转成json串toString()
             // console.log(mimeObj[extname]);
-
+            
             resolve(mimeObj[extname]);
         })
    })

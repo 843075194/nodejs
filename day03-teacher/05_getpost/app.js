@@ -1,3 +1,5 @@
+
+
 const http = require('http');
 const routes = require('./module/routes');
 const url = require('url');
@@ -16,13 +18,15 @@ http.createServer(function (req, res) {
     if(pathname=='/news'){
         //获取get传值
         var query=url.parse(req.url,true).query;
-        console.log(query.page);
+        console.log(url.parse(req.url,true));
+        
+        console.log(query);
+        //console.log(query.page);
         res.writeHead(200, { 'Content-Type': 'text/html;charset="utf-8"' });
         res.end('get传值获取成功');
 
     }else if(pathname=='/login'){
        //post演示
-
        ejs.renderFile("./views/form.ejs",{},(err,data)=>{
             res.writeHead(200, { 'Content-Type': 'text/html;charset="utf-8"' });
             res.end(data)

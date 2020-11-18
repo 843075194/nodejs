@@ -27,8 +27,6 @@ http.createServer(function (req, res) {
         res.end("页面不存在");
     }
 
-
-
 }).listen(3000);
 
 console.log('Server running at http://127.0.0.1:3000/');
