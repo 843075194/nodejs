@@ -37,9 +37,12 @@ http.createServer(function (req, res) {
         let postData = '';
         req.on('data',(chunk)=>{
             postData+=chunk;
+            //console.log(chunk.toString());
+            console.log(postData);
+            
         })
         req.on('end',()=>{
-           console.log(postData);
+           //console.log(postData);
            res.end(postData);
         })
     }else{
